@@ -29,7 +29,10 @@ void setup()
   lcd.print("Time: ");
   lcd.setCursor(0, 1);
   lcd.print("Date: ");
-  rtc.begin();    
+  rtc.begin();   
+  
+ // If using RTC for first time, uncomment below lines and 
+ // set current time and date, upload to arduino, again comment and upload
  //rtc.setTime(11 ,20 ,00); 
  //rtc.setDate(18, 3, 2018);  
 }
